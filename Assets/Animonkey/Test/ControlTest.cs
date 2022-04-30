@@ -10,6 +10,14 @@ namespace Animonkey.Animonkey.Test
         {
             Initialize();
             animonkey.Play(clip);
+            animonkey.OnUpdate(() =>
+            {
+                Debug.Log($"OnUpdate event is working;");
+            });
+            animonkey.OnComplete(() =>
+            {
+                Debug.Log($"OnComplete event is working;");
+            });
         }
     }
 }
