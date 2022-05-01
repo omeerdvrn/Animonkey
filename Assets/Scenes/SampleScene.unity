@@ -388,7 +388,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd4999ac37d864ce8a33e6a2c6c97e03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: -203655887218126122, guid: 66ab17cef298645cd8ac7586d0b8a9aa, type: 3}
+  clips:
+  - {fileID: -203655887218126122, guid: 8dea0d811808043e4a0fddaef4b12577, type: 3}
+  - {fileID: -203655887218126122, guid: 221cc5d556076457a8accc0a493cc481, type: 3}
+  - {fileID: -203655887218126122, guid: c9a664dc67f28421bbd7f5e2d771f71b, type: 3}
+  - {fileID: -203655887218126122, guid: 66ab17cef298645cd8ac7586d0b8a9aa, type: 3}
+  nextIndex: 0
 --- !u!1 &1608172300
 GameObject:
   m_ObjectHideFlags: 0

@@ -27,5 +27,11 @@ namespace Animonkey.Animonkey
             animonkey.onComplete = onCompleteCallback;
             return animonkey.onComplete;
         }
+
+        public static void ClearAllEvents(this Animonkey animonkey)
+        {
+            animonkey.onComplete = null;
+            animonkey.onUpdate = null;
+        }
     }
 }
