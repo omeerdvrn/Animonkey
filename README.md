@@ -1,2 +1,6 @@
 # Animonkey
-Unity custom animation system.(Free)
+Animonkey is a custom animation system. Will be updated soon.
+
+## Technologies ##
+Unity\
+Unity Playables API\
